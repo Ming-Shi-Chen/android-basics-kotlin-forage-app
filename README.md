@@ -1,41 +1,15 @@
-Forage - Starter Code
+A fork from  Google-developer-training  :Forage - Starter Code
 ==================================
+The original starter code use databinding、and Dao to store and display the UI.
 
-Starter code for the fifth independent project for Android Basics in Kotlin. This project pairs
-with Unit 5 of Android Basics in Kotlin
+I add a little change as my practice project
 
-Introduction
-------------
+I Add a date data  column to store the date that user whant to have a days count down.
+And the date was choose by a DatePickerDialog
+The date data is store by Room in SQLite Local database.
 
-This is the starter code for the Forage app project. This project is an opportunity for you to
-demonstrate the concepts you learned in Unit 5 of Android Basics in Kotlin.
-
-Pre-requisites
---------------
-
-- Complete Unit 1 of Android Basics in Kotlin
-- Complete Project 1: Lemonade App
-- Complete Unit 2 of Android Basics in Kotlin
-- Complete Project 2: Dogglers
-- Complete Unit 3 of Android Basics in Kotlin
-- Complete Project 3: Lunch Tray
-- Complete Unit 4 of Android Basics in Kotlin
-- Complete Project 4: Amphibians
-- Complete Unit 5 of Android Basics in Kotlin
-
-Getting Started
----------------
-
-1. Download the starter code
-2. Open the project in Android Studio
-3. Complete the project in accordance with the app requirements
-
-
-Tasks
----------------
-
-Tips
-----
-
-- Use the provided tests to ensure your app is running as expected
-- DO NOT ALTER THE PROVIDED TESTS
+Furture willing changes
+=========================================
+I want to add the Repository Pattern into this practice.
+And change the dataBase into remote database , like Firebase etc....
+Maybe add a column  to store Bitmap data. 
