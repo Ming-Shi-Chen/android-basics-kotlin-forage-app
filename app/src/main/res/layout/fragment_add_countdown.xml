@@ -130,11 +130,12 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/delete_btn"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
-                android:layout_width="wrap_content"
                 android:text="@string/delete"
-                android:visibility="gone" />
+                android:visibility="gone"
+                app:backgroundTint="#8A009688" />
 
         </LinearLayout>
 

@@ -175,7 +175,7 @@ class AddCountDownFragment : Fragment() {
             val msdiff = date?.minus(Calendar.getInstance().timeInMillis)
             val daysDiff = msdiff?.let { it1 -> TimeUnit.MILLISECONDS.toDays(it1) }
 
-            Toast.makeText(requireActivity(), "the days:$daysDiff",Toast.LENGTH_SHORT).show()
+//            Toast.makeText(requireActivity(), "the days:$daysDiff",Toast.LENGTH_SHORT).show()
             binding.datetimeInput.setText(formatDate)
         }
     }
